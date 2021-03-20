@@ -1,7 +1,12 @@
+import { useState } from 'react';
+import Home from './pages/home/home';
+
+
 const  App = () => {
+  const [ navType, setNavType ] = useState('Industries');
   return (
     <div >
-      New Project
+      <Home navType = { navType } setNavType = {setNavType}/>
     </div>
   );
 }
