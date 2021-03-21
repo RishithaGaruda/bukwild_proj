@@ -9,7 +9,7 @@ export const content = {
           Headline: "industries",
           Subhead:
             "Clinical protein, earth and running convenience mauris, volutpat nibh sauce to warm mass just a lot of laughter.",
-          Eta: "gas Ligula gate trigger Performance forever.",
+         cta: "This is industrial cta",
           Background: "slide_one.jpg",
         },
       ],
@@ -23,7 +23,7 @@ export const content = {
           Headline: "industries",
           Subhead:
             "Clinical protein, earth and running convenience mauris, volutpat nibh sauce to warm mass just a lot of laughter.",
-          Eta: "gas Ligula gate trigger Performance forever.",
+         cta: "This is survices cta",
           Background: "slide_two.jpg",
         },
       ],
@@ -37,7 +37,7 @@ export const content = {
           Headline: "industries",
           Subhead:
             "Clinical protein, earth and running convenience mauris, volutpat nibh sauce to warm mass just a lot of laughter.",
-          Eta: "gas Ligula gate trigger Performance forever.",
+         cta: "This is About Us cta",
           Background: "slide_three.jpg",
         },
       ],
