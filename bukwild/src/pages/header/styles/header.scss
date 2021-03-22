@@ -1,51 +1,65 @@
-@import '../../../global.scss';
+@import "../../../global.scss";
 
-.headerContainer{
-    width: 100vw;
-    // height: 150px;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-}
-
-.headerHolder{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
+.headerContainer {
+  width: 100vw;
+  background: transparent;
+  display: flex;
+  justify-content: center;
 }
 
-.titleContainer{
-    display: flex;
-    flex-direction: column;
-}
-.titleHolder{
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-.contactContainer{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding: 5px 10px ;
-   margin-top: 40px;
-   height: 40px;
-   font-family: $commonFont;
-   font-size: 17px;
-   letter-spacing: 0.1rem;
-   color: $white;
-   border: 1px solid $white;
-   cursor: Pointer
+.headerHolder {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navBtn{
-    color: $white;
-    font-family: $commonFont;
-    margin-bottom: 10px;
-    cursor: pointer;
-    font-size: 17px;
-    letter-spacing: 0.1rem;
+.titleContainer {
+  display: flex;
+  flex-direction: column;
 }
-.activeNav{
-    color: $yellow;
+.titleHolder {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.contactContainer {
+  width: 8.688rem;
+  height: 2.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  margin-top: 40px;
+  font-size: 17px;
+  letter-spacing: 0rem;
+  color: $white;
+  border: 1px solid $white;
+  cursor: Pointer;
+}
+.text {
+  width: 8.625rem;
+  height: 1.125rem;
+  font-family: $commonFont;
+  font-size: 0.938rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+}
+.navBtn {
+  color: $white;
+  font-family: $commonFont;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+.activeNav {
+  color: $yellow;
 }

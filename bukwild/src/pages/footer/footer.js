@@ -7,7 +7,7 @@ const Footer = ( { footer } ) => {
         <div className = "footerHolder">
             <div className = "footerContent">
                 <div className = "footerCta">{ footer }</div>
-                <div className = "footerNavigator">Lets Talk <span><AiOutlineArrowRight/></span></div>
+                <div className = "footerNavigator">LET'S TALK <span><AiOutlineArrowRight/></span></div>
             </div>
         </div>
     </div>

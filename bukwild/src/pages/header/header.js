@@ -22,7 +22,7 @@ const Header = ({ navType, setNavType }) => {
           </div>
           <div className="navBar">{navButtons}</div>
         </div>
-        <div className="contactContainer"> Contact Us </div>
+        <div className="contactContainer"> <span className="text">Contact Us</span> </div>
       </div>
     </header>
   );
