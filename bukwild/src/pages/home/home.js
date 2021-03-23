@@ -28,18 +28,18 @@ const Home = ({ navType, setNavType }) => {
       setHeadline((prev) => currHeadline);
       setSubhead((prev) => currSubhead);
     };
-    if( Image === null){
-         setTimeout( () => {
-             getComponent();
-         }, 800)
-    }else{
+    if (Image === null) {
+      setTimeout(() => {
         getComponent();
+      }, 800);
+    } else {
+      getComponent();
     }
-    
   }, [navType]);
+  
   if (Image === null) {
     return (
-      <div className = "loaderClass">
+      <div className="loaderClass">
         <Loader />
       </div>
     );
